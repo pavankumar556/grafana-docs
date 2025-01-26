@@ -45,6 +45,9 @@ ExecStart=/usr/local/bin/node_exporter --web.listen-address=:9100
 [Install]
 WantedBy=multi-user.target
 ```
+```
+cd node_exporter-1.8.2.linux-amd64
+```
 # Move Node_exporter file to 
 ```
 mv node_exporter /usr/local/bin/node_exporter
