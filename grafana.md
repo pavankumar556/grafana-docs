@@ -8,6 +8,7 @@ grafan starts
 sudo /bin/systemctl daemon-reload
 sudo /bin/systemctl enable grafana-server.service
 sudo /bin/systemctl start grafana-server.service
+sudo /bin/systemctl status grafana-server.service
 ```
 
 
