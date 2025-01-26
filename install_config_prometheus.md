@@ -102,6 +102,12 @@ scrape_configs:
     static_configs:
       - targets: ['localhost:9090',"44.210.237.232:9100"]
 ```
+```
+sudo systemctl restart prometheus
+```
+```
+sudo systemctl restart prometheus
+```
 
 # Access Prometheus
 You can now login to `http://IP_Address:9090` to access Prometheus GUI.
