@@ -106,7 +106,7 @@ scrape_configs:
 sudo systemctl restart prometheus
 ```
 ```
-sudo systemctl restart prometheus
+sudo systemctl status prometheus
 ```
 
 # Access Prometheus
