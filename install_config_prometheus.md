@@ -61,9 +61,6 @@ sudo systemctl enable prometheus
 # Managing Prometheus Service
 Use below commands to check status, start or stop Prometheus service.
 ```
-sudo systemctl enable prometheus
-```
-```
 sudo systemctl start prometheus
 ```
 ```
