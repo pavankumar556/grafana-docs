@@ -2,7 +2,7 @@
 - Download prometheus here [Prometheus Download Page](https://prometheus.io/download/#prometheus)
 - Extract
 ```
-tar xvfz prometheus-*.tar.gz
+tar -xvzf prometheus-3.5.0.linux-amd64.tar.gz
 ```
 - Create two new directories for Prometheus to use. The /etc/prometheus directory stores the Prometheus configuration files. The /var/lib/prometheus directory holds application data.
 ```
